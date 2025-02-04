@@ -1,0 +1,124 @@
+/* ========== RESET CSS ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9; /* Blanc cassé */
+  color: #333;
+  padding: 0 1rem;
+}
+
+/* ========== HEADER ========== */
+.site-header {
+  background-color: #004e89; /* Bleu foncé */
+  color: #f9f9f9; /* Blanc cassé */
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.site-title {
+  font-size: 2.2rem;
+}
+
+.main-nav .nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+.main-nav .nav-item {
+  margin: 0 1rem;
+}
+
+.main-nav .nav-link {
+  color: #f9f9f9; /* Blanc cassé */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* ========== MAIN CONTENT ========== */
+.site-main {
+  margin: 2rem 0;
+}
+
+.section-title {
+  color: #f26419; /* Orange */
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.article-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.article-item {
+  margin: 0.5rem 0;
+  background-color: #ffffff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.article-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.article-link {
+  text-decoration: none;
+  color: #004e89; /* Bleu foncé */
+  font-weight: bold;
+}
+
+.article-link:hover {
+  color: #f26419; /* Orange */
+}
+
+/* ========== FOOTER ========== */
+.site-footer {
+  background-color: #004e89; /* Bleu foncé */
+  color: #f9f9f9; /* Blanc cassé */
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+}
+
+/* ========== ACCESSIBILITY ========== */
+a:focus {
+  outline: 3px solid #f26419; /* Orange */
+  outline-offset: 3px;
+}
+
+button:focus, input:focus {
+  outline: 2px solid #004e89; /* Bleu foncé */
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media (max-width: 768px) {
+  .main-nav .nav-list {
+    flex-direction: column;
+  }
+
+  .main-nav .nav-item {
+    margin: 0.5rem 0;
+  }
+}
