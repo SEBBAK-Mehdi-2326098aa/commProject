@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  font-family: 'Arial', sans-serif;
   line-height: 1.6;
   background-color: #f9f9f9; /* Blanc cassé */
   color: #333;
@@ -108,7 +108,8 @@ a:focus {
   outline-offset: 3px;
 }
 
-button:focus, input:focus {
+button:focus,
+input:focus {
   outline: 2px solid #004e89; /* Bleu foncé */
 }
 
