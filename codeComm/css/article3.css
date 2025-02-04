@@ -99,6 +99,13 @@ body {
   margin-bottom: 1rem;
 }
 
+.site-title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
 .site-footer {
   background-color: #004e89; /* Bleu foncé */
   color: #f9f9f9; /* Blanc cassé */
