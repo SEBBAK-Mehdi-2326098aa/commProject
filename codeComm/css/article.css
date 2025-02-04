@@ -1,0 +1,125 @@
+/* ========== RESET CSS ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9; /* Blanc cassé */
+  color: #333;
+  padding: 0 1rem;
+}
+
+/* ========== HEADER ========== */
+.site-header {
+  background-color: #004e89; /* Bleu foncé */
+  color: #f9f9f9; /* Blanc cassé */
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.site-title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.home-link {
+  color: #f9f9f9; /* Blanc cassé */
+  text-decoration: none;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
+
+/* ========== ARTICLE CONTENT ========== */
+.article-content {
+  background-color: #ffffff;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+}
+
+.article-title {
+  color: #004e89; /* Bleu foncé */
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.article-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.article-author,
+.article-date {
+  font-weight: bold;
+}
+
+.article-section {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  color: #f26419; /* Orange */
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.section-text {
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* ========== FOOTER ========== */
+.site-footer {
+  background-color: #004e89; /* Bleu foncé */
+  color: #f9f9f9; /* Blanc cassé */
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+}
+
+/* ========== ACCESSIBILITY ========== */
+a:focus {
+  outline: 3px solid #f26419; /* Orange */
+  outline-offset: 3px;
+}
+
+button:focus,
+input:focus {
+  outline: 2px solid #004e89; /* Bleu foncé */
+}
+
+/* ========== BUTTON STYLES ========== */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #f26419; /* Orange */
+  color: #f9f9f9; /* Blanc cassé */
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: none;
+  z-index: 1000;
+}
+
+.scroll-to-top:hover {
+  background-color: #e35414; /* Orange foncé */
+}
