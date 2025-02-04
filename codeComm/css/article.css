@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  font-family: "Arial", sans-serif;
   line-height: 1.6;
   background-color: #f9f9f9; /* Blanc cassé */
   color: #333;
@@ -19,6 +19,7 @@ body {
   color: #f9f9f9; /* Blanc cassé */
   padding: 1rem 0;
   text-align: center;
+  width: 100%;
 }
 
 .site-title {
